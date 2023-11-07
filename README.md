@@ -30,7 +30,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 <br>
 
 #### Compile time polymorphism: 
-  > * 1. `Method Overlaoding`
+  > * 1. `Method Overloading`
   > * 2. `Operator Overloading`
 
 <br>
@@ -41,7 +41,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 
 <br>
 
-### Method Overlaoding :
+### Method Overloading :
 > * `Create same named method multitimes in same class with different parameters.`
 
 <br>
@@ -88,6 +88,18 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
     * Method Name : Same
     * Parameters : Same
 </pre>
+
+<br><br>
+
+## Operator Overloading (Overload binary & unary operator) :
+
+> * `A Method to perform operation between objects of same class. `
+> * It automatically invokes a method named 'operator < +,-,*,/,>,<,...'
+
+### Binary Operator Overloading :
+
+> 
+
 
 
 
