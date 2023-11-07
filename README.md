@@ -94,7 +94,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
 ## Operator Overloading (Overload binary & unary operator) :
 
 > * `A Method to perform operation between objects of same class. `
-> * It automatically invokes a method named 'operator < +,-,*,/,>,<,...'
+> * It automatically invokes a method named 'operator ( +,-,*,/,>,<,...)'
 
 <br>
 
