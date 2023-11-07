@@ -96,13 +96,84 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
 > * `A Method to perform operation between objects of same class. `
 > * It automatically invokes a method named 'operator < +,-,*,/,>,<,...'
 
+<br>
+
+### Two types :
+
+> * `Unary ` => ++ , --
+> * `Binary` => +,-,*,/,>,<
+
+<br>
+
 ### Binary Operator Overloading :
 
-> 
+<pre>
+  Example : 
 
+  #include<iostream>
+  using namespace std;
 
-
-
+  class Demo {
+  	
+  	private :
+  		
+  		int a;
+  		
+  	public :
+  		
+  		void setData() {
+  			cout << endl << "Enter a : ";
+  			cin >> a;
+  		}
+  		
+  		void getData() 
+      {
+  			cout << endl << "A\t: " << a << endl;
+  		
+  		Demo operator+(Demo d2) 
+  		{
+  			Demo d3;
+  			
+  			d3.a = a + d2.a;
+  			
+  			return d3;
+  		}
+  		
+  		bool operator<(Demo d2)
+  		{
+  			if(a < d2.a) 
+  			{
+  				return true;
+  			}else {
+  				return false;
+  			}
+  		}
+  };
+  
+  int main() {
+  	
+  	Demo d1,d2,d3;
+  	
+  	d1.setData();
+  	d2.setData();
+  	
+  //	d3 = d1 + d2; // d1.operator+(d2)
+  
+  if(d1 < d2) //d1.operaor<(d2)
+	{ 
+    cout << endl << "d2 is maximum" << endl;
+  }
+  else 
+	{
+	  cout << endl << "d1 is maximum" << endl;
+  }
+  	
+  	d1.getData();
+  	d2.getData();
+  	d3.getData();
+  	
+}
+</pre>
 
 
 
