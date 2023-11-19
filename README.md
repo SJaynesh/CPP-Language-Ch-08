@@ -110,7 +110,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
 <pre>
   Example : 
 
-  #include<iostream>
+  #include<<iostream>iostream>
   using namespace std;
 
   class Demo {
@@ -126,10 +126,10 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
   			cin >> a;
   		}
   		
-  		void getData() 
-      {
+  		void getData() {
   			cout << endl << "A\t: " << a << endl;
-  		
+  		}
+							 
   		Demo operator+(Demo d2) 
   		{
   			Demo d3;
@@ -157,23 +157,139 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
   	d1.setData();
   	d2.setData();
   	
-  //	d3 = d1 + d2; // d1.operator+(d2)
+   	// d3 = d1 + d2; // d1.operator+(d2)
   
-  if(d1 < d2) //d1.operaor<(d2)
+	if(d1 < d2) //d1.operaor<(d2)
 	{ 
-    cout << endl << "d2 is maximum" << endl;
-  }
-  else 
+		cout << endl << "d2 is maximum" << endl;
+	}
+	else 
 	{
-	  cout << endl << "d1 is maximum" << endl;
-  }
-  	
+		cout << endl << "d1 is maximum" << endl;
+	}
+	  	
   	d1.getData();
   	d2.getData();
   	d3.getData();
   	
 }
 </pre>
+
+<br><br>
+
+<pre>
+	#include<<iostream>iostream>
+	using namespace std;
+	
+	class Demo {
+		int a,b;
+		
+		public :
+			
+			void setData() {
+				cout << "Enter a : ";
+				cin >> a;
+				cout << "Enter b : ";
+				cin >> b;	
+			}
+			
+			void getData(string obj) {
+				cout << endl << obj << " A : " << a 
+					 << endl << obj << " B : " << b << endl;
+			}
+			
+			Demo operator+(Demo d2) {
+				Demo tmp;
+				
+				tmp.a = a + d2.a;
+				tmp.b = b + d2.b;
+				
+				return tmp;
+				
+			}
+	};
+	
+	
+	int main() {
+		
+		Demo d1,d2,d3;
+		
+		d1.setData();
+		d2.setData();
+		
+		d3 = d1 + d2; // d1.operator+(d2);
+		
+		d1.getData("d1");
+		d2.getData("d2");
+		d3.getData("d3");
+	}
+</pre>
+
+<br><br>
+
+### Unary Operator Overloading :
+
+<br>
+
+<pre>
+	#include<<iostream>iostream>
+	using namespace std;
+	
+	class Demo {
+		int a;
+		
+		public :
+			
+			void setData() {
+				cout << "Enter a : ";
+				cin >> a;
+			}
+			
+			void getData(string obj) {
+				cout << endl << obj << " : " << a << endl;
+			}
+			
+			Demo operator++(int n) {
+				Demo tmp;
+				
+				tmp.a = a++;
+				
+				return tmp;
+			}
+			
+			Demo operator--() {
+				Demo tmp;
+				
+				tmp.a = --a;
+				
+				return tmp;
+			}
+	};
+	
+	
+	int main() {
+		
+		Demo d1,d2;
+		
+		d1.setData();
+		
+		// Post Increment
+		d2 = d1++;// d1 + 1 // d1.operator++(1);
+		
+		d1.getData("D1");
+		d2.getData("D2");
+		
+		// Pre Decrement
+		d2 = --d1; // d1.operator--();
+		
+		d1.getData("D1");
+		d2.getData("D2");
+		
+	}
+</pre>
+
+
+
 
 
 
