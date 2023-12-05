@@ -14,7 +14,7 @@
 
 <br>
 
-> * `It is a concept where any method or attribute have different behaviours.`
+> * `It is a concept where any method or attribute have multiple/different behaviours.`
 
 <br>
 
