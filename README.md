@@ -69,7 +69,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
 <br>
 
 ### Method Overriding (Overwriting): 
-> * `Create same named method in derived class with smae parameters.`
+> * `Create same named method in derived class with same parameters.`
 
 <br>
 
