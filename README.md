@@ -10,12 +10,7 @@
 > * `Poly` => Many/Multiple/different
 > * `Morphs` => Forms / Structure / behaviour
 
-
-
-
-
-
-<br>
+<br><br>
 
 > * `It is a concept where any method or attribute have multiple/different behaviours.`
 
@@ -24,30 +19,33 @@
 
 <p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/414d8227-6bbb-4224-a83f-954a69e415aa.png" width=60% height=50%></p>
 
-<br>
+<br><br>
 
 https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fca-a096-822453572612
 
 <br><br>
 
-### Types of Polymorphism :
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/b0b55836-0ee9-4cf2-98e8-6f86e37db0e2.png" width=80% height=80%></p>
+
+<br><br>
+
+## Types of Polymorphism :
 
 <br>
 
-#### Compile time polymorphism: 
+### Compile time polymorphism (Static polymorphism) : 
   > * 1. `Method Overloading`
   > * 2. `Operator Overloading`
 
 <br>
 
-#### Run Time polymorphism :
+### Run Time polymorphism (Dynamic polymorphism) :
   > * 1. `Method Overriding`
   > * 2. `Virtual function`
 
-<br>
+<br><br>
 
 ### Method Overloading :
-> * `Create same named method multitimes in same class with different parameters.`
 
 <br>
 
@@ -55,44 +53,104 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 
 <br>
 
-> * 1. All the methods must have same name.
-> * 2. All the methods must be in same class.
-> * 3. All the method must have different signatures(parameters, return type).
+> 1. Multiple methods at Same class (2 or more methods) .
+> 2. All methods name must be same.
+> 3. Parameters must be different.
 
 <br>
 
+> * `Create same named method multitimes in same class with different parameters.`
+
+<br><br>
+
 <pre>
-    * Class : Same
+    * Class	  : Same
     * Method Name : Same
-    * Parameters : different
+    * Parameters  : different
 </pre>
 
 <br>
 
 https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44ce-8790-e42a0b9d76f9
 
-<br>
+<br><br>
+
+<pre>
+	#include<iostream>
+using namespace std;
+
+class A
+{
+    public:
+        void truck()
+        {
+            cout << "Empty truck is running" << endl;
+        }
+        
+        void truck(int n)
+        {
+            cout << "The truck is running with " << n << " items" << endl;
+        }
+        
+        void truck(int n, float o)
+        {
+            cout << "The truck is running with " << n << " items and " << o << " weight " << endl; 
+        }
+        
+        void truck(float n)
+        {
+            cout << "Value of " << n << endl;
+        }
+};
+
+int main()
+{
+    
+    A o1;
+    
+    o1.truck();
+    o1.truck(10);
+    o1.truck(10,50.20);
+    o1.truck(25.35f);
+}
+</pre>
+
+
+<br><br>
 
 ### Method Overriding (Overwriting): 
-> * `Create same named method in derived class with same parameters.`
 
-<br>
+<br><br>
 
 #### `Rules :`
 
 <br>
 
-> * 1. All the methods must have same name.
-> * 2. All the methods must be in derived(child) class.
-> * 3. All the method must have same signatures(parameters, return type).
+> 1. Multiple methods (2 or more methods) .
+> 2. All methods name must be same.
+> 3. Parameters must be different.
+> 4. Derive in multiple classes (2 or more class).
+> 5. Inheritance is required.
+
+<br>
+
+> * `Create same named method in derived class with same parameters.`
 
 <br>
 
 <pre>
-    * Class : Different
-    * Method Name : Same
-    * Parameters : Same
+    * Class	   : Different
+    * Method Name  : Same
+    * Parameters   : Same
 </pre>
+
+<br><br>
+
+## Diffrent between Method Overloading and Method Overriding 
+
+<br>
+
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/c169be06-f0d8-4b31-8213-3c7dbaed163e.png" width=80% height=80%></p>
 
 <br><br>
 
