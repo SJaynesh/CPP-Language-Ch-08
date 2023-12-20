@@ -129,7 +129,7 @@ int main()
 
 > 1. Multiple methods (2 or more methods) .
 > 2. All methods name must be same.
-> 3. Parameters must be different.
+> 3. Parameters must be Same.
 > 4. Derive in multiple classes (2 or more class).
 > 5. Inheritance is required.
 
