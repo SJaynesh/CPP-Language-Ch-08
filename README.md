@@ -1,7 +1,6 @@
 # Polymorphism 
 
 <br>
-
 ## What is Polymorphism ?
 
 <br>
