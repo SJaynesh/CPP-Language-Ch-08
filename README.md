@@ -8,15 +8,21 @@
 <br>
 
 > * Polymorphism is a fundamental concept in object-oriented programming (OOP).
-> * `Poly` => Many/Multiple/different
-> * `Morphs` => Forms / Structure / behaviour
 
 <br><br> 
 
 > * `It is a concept where any method or attribute have multiple/different behaviours.`
+> * Polymorphism refers to the ability of a class or a function to take on multiple forms.
+> * Polymorphism is a concept which indicates the multiple use of any methods.
+> * Polymorphism is a greek word in which
 
 <br>
 
+`Poly` means => Many / Multiple / Different <br>
+and  <br>
+`Morphsim` => Forms / Structure / Behaviour
+
+<br><br>
 
 <p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/414d8227-6bbb-4224-a83f-954a69e415aa.png" width=60% height=50%></p>
 
@@ -26,13 +32,13 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 
 <br><br>
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/b0b55836-0ee9-4cf2-98e8-6f86e37db0e2.png" width=80% height=80%></p>
-
-<br><br>
-
 ## Types of Polymorphism :
 
 <br>
+
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/b0b55836-0ee9-4cf2-98e8-6f86e37db0e2.png" width=80% height=80%></p>
+
+<br><br>
 
 ### Compile time polymorphism (Static polymorphism) : 
   > * 1. `Method Overloading`
@@ -50,17 +56,17 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 
 <br>
 
+> * It allows a class to have muliple methods with the same name but different parameters.
+> * `Create same named method multitimes in same class with different parameters.`
+
+
 #### `Rules :`
 
 <br>
 
-> 1. Multiple methods at Same class (2 or more methods) .
-> 2. All methods name must be same.
-> 3. Parameters must be different.
-
-<br>
-
-> * `Create same named method multitimes in same class with different parameters.`
+> 1. Multiple Methods at Same Class (2 Or More Methods) .
+> 2. All Methods Name Must be Same.
+> 3. Parameters Must be Different.
 
 <br><br>
 
@@ -78,7 +84,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/35ae3714-063b-44c
 <br><br>
 
 <pre>
-	#include<iostream>
+#include<iostream>
 using namespace std;
 
 class A
@@ -124,6 +130,10 @@ int main()
 
 <br><br>
 
+> * `Create same named method in derived class with same parameters.`
+
+<br>
+
 #### `Rules :`
 
 <br>
@@ -133,10 +143,6 @@ int main()
 > 3. Parameters must be Same.
 > 4. Derive in multiple classes (2 or more class).
 > 5. Inheritance is required.
-
-<br>
-
-> * `Create same named method in derived class with same parameters.`
 
 <br>
 
@@ -161,15 +167,12 @@ int main()
 > * `A Method to perform operation between objects of same class. `
 > * It automatically invokes a method named 'operator ( +,-,*,/,>,<,...)'
 
-
-
-
-<br>
+<br><br> 
 
 ### Two types :
 
-> * `Unary ` => ++ , --
-> * `Binary` => +,-,*,/,>,<
+> * `Unary Operator Overloading` => ++ , --
+> * `Binary Operator Overloading` => +,-,*,/,>,<
 
 <br>
 
