@@ -161,7 +161,12 @@ int main()
 
 <p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/c169be06-f0d8-4b31-8213-3c7dbaed163e.png" width=80% height=80%></p>
 
-<br><br>
+<br>
+
+![method](https://github.com/user-attachments/assets/553d9c6e-a6e3-4b5f-b527-e8aa0a5a81d1)
+
+
+<br><br><br>
 
 ## Operator Overloading (Overload binary & unary operator) :
 
