@@ -24,7 +24,7 @@ and  <br>
 
 <br><br>
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/414d8227-6bbb-4224-a83f-954a69e415aa.png" width=60% height=50%></p>
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/414d8227-6bbb-4224-a83f-954a69e415aa.png" width=60% height=50%></p> 
 
 <br><br>
 
@@ -36,7 +36,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/d7381d88-6185-4fc
 
 <br>
 
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/b0b55836-0ee9-4cf2-98e8-6f86e37db0e2.png" width=80% height=80%></p>
+<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-08/assets/115562979/b0b55836-0ee9-4cf2-98e8-6f86e37db0e2.png" width=80% height=80%></p> 
 
 <br><br>
 
