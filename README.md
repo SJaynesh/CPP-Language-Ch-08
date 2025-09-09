@@ -163,7 +163,7 @@ int main()
 
 <br>
 
-![method](https://github.com/user-attachments/assets/553d9c6e-a6e3-4b5f-b527-e8aa0a5a81d1)
+![method](https://github.com/user-attachments/assets/553d9c6e-a6e3-4b5f-b527-e8aa0a5a81d1) 
 
 
 <br><br><br>
